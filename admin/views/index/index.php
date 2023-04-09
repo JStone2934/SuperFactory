@@ -36,7 +36,7 @@
         </ul><!--tool end-->
         </div>
     </div><!--header end-->
-        <div class="header c"  style="margin-top:0px;margin-bottom:0px;padding-top:0px;background-color:#FFBF00;">
+        <div class="header c"  style="margin-top:0px;margin-bottom:0px;padding-top:0px;background-color:#FFA101;">
     
         <ul class="nav" >
          <?php
