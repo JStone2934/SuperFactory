@@ -42,8 +42,6 @@ class project extends BaseModel {
             'success_skill'=>'成功技巧',
             'standard'=>'中小学科学课标',
             'NGSS'=>'下代标准',
-            'image'=>'设想图',
-            'arrangement_file'=>'文件',
             'project_code'=>'工程编码',
         );
     }
@@ -59,9 +57,7 @@ class project extends BaseModel {
     public function getCode() {
         return $this->findAll('1=1');
     }
-    public function picLabels() {
-        return 'image,arrangement_file';
-    }
+    
     public  function pathLabels(){
         return '';
     }

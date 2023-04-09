@@ -41,9 +41,7 @@ class myClass extends BaseModel {
             'class_address'=>'上课地点',
             'class_time'=>'课次',
             'teacher_name'=>'教师姓名',
-            'image'=>'课程图片',
-            'file'=>'文件',
-            'class_code'=>'课程编码',
+            'class_code'=>'课程编码'
         );
     }
 
@@ -58,9 +56,7 @@ class myClass extends BaseModel {
     public function getCode() {
         return $this->findAll('1=1');
     }
-    public function picLabels() {
-        return 'image,file';
-    }
+    
     public  function pathLabels(){
        return '';
    }
