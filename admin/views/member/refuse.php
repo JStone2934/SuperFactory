@@ -41,7 +41,7 @@
                         <th style='text-align: center;'><?php echo $model->getAttributeLabel('contact_phone');?></th>
                         <th style='text-align: center;'><?php echo $model->getAttributeLabel('member_type');?></th>
                         <th style='text-align: center;'><?php echo $model->getAttributeLabel('status');?></th>
-                        <th style='text-align: center;'><?php echo $model->getAttributeLabel('image');?></th>
+                        <!-- <th style='text-align: center;'></th> -->
                         <th style='text-align: center;'>操作</th>
                     </tr>
                 </thead>
@@ -60,7 +60,7 @@ foreach($arclist as $v){
                         <td style='text-align: center;'><?php echo $v->member_type; ?></td>
                         <td style='text-align: center;'><?php echo $v->status; ?></td>
                         <!-- 缩略图要改下面这一行 -->
-                        <td style='text-align: center;'><?php echo BaseLib::model()->show_pic($v->image,NULL,0);?></td>
+                        <!-- <td style='text-align: center;'>?></td> -->
                         <td style='text-align: center;'>
                             <a class="btn" href="<?php echo $this->createUrl('update_edit', array('id'=>$v->id));?>" title="查看"><i class="fa fa-edit"></i></a>
 

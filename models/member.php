@@ -37,8 +37,7 @@ class member extends BaseModel {
             'address'=>'地址',
             'status'=>'审核状态',
             'account_number'=>'账号',
-            'ID_number'=>'身份证号',
-            'image'=>'头像',
+            'ID_number'=>'身份证号',       
             'sex'=>'性别',
             'birth'=>'出生日期',
             'remark'=>'备注',
@@ -57,9 +56,7 @@ class member extends BaseModel {
     public function getCode() {
         return $this->findAll('1=1');
     }
-    public function picLabels() {
-        return 'image';
-    }
+   
     public  function pathLabels(){
        return '';
    }
